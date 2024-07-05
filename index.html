@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo_wrapper"></div>
+    </header>
+    <main>
+        <article class="login_form_wrapper">
+            <section class="login_form">
+                <div id="status_message">
+                    To access next page you need to log in
+                </div><br/>
+                <form method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    
+                    <input type="submit" value="Log in"></input>
+
+                    <input type="checkbox" id="checkbox"><label for="checkbox" id="checkLab">Remember me</label>
+                </form>
+                <br/><hr>
+                <div id="f_pass_link">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="corp_caption">
+            &copy; 2024 Salesforce, Inc. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
